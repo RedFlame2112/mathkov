@@ -5,3 +5,5 @@ Natural Language Processor that analyzes a bank of past math problems and uses b
 I took a list of all the past AIME problems, then I proceeded to literally splice them together while taking out latex delimiters and commands so that the chain can analyze pure text.
 
 From there, spaCy and Markovify handles the rest.
+
+The actual code is in `mathkov.ipynb` while the output is in `mathkov.txt`. The feeder is in `math.txt`
